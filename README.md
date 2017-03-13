@@ -52,9 +52,9 @@ Selecciona el fondo **xy-grid**.
 Utiliza los bloques:
 
 * `al presionar tecla _`
-* `mover`
+* `mover _ pasos`
 * `siguiente disfraz`
-* `tocar sonido`
+* `tocar sonido _`
 
 ![](images/img-01.png)
 
@@ -73,11 +73,14 @@ automáticamente por la pantalla y rebote cada vez que se encuentra con un borde
 
 Utiliza los bloques:
 
+* `apuntar en dirección _`
 * `por siempre`
 * `mover _ pasos`
 * `siguiente disfraz`
 * `esperar _ segundos`
-* `apuntar en dirección`
+* `rebotar si toca un borde` 
+
+![](images/img-02.png)
 
 ### Ejercicio 4. Posición aleatoria
 
@@ -88,6 +91,8 @@ Utiliza los bloques:
 
 * `ir a x: _ y: _`
 * `número al azar entre _ y _`
+
+![](images/img-03.png)
 
 ### Ejercicio 5. Comprobar colisiones entre objetos
 
@@ -101,30 +106,58 @@ Utiliza los bloques:
 * `decir _ por _ segundos`
 * `tocar sonido`
 
+![](images/img-04.png)
+
 ### Ejercicio 6. Eventos y paso de mensajes entre objetos
 
 Al inicio del juego todos los objetos estarán ocultos y cuando se pulse sobre el
 icono de la bandera verde los objetos se harán visibles.
 
 Cuando se pulse sobre el icono de la bandera verde se esperarán 3 segundos y se
-enviará un mensaje a cada uno de los objetos (**mostrar_cangrejo** y **mostrar_estrella**) para indicar que el juego va a comenzar y deben aparecer.
+enviará un mensaje a cada uno de los objetos (**mostrar_cangrejo**, **mostrar_estrella** y **mostrar pulpo**) para indicar que el juego va a comenzar y deben aparecer.
 
 **Escenario**
 
-Utiliza los siguientes bloques para enviar los mensajes **mostrar_cangrejo** y **mostrar_estrella**:
+Utiliza los siguientes bloques para enviar los mensajes **mostrar_cangrejo**, **mostrar_estrella** y **mostrar pulpo**:
 
 * `al presionar bandera`
 * `esperar _ segundos`
 * `enviar _`
 
-**Crab y Starfish**
+![](images/img-05-escenario.png)
 
-Utilizan los bloques:
+**Crab**
+
+Utiliza los bloques:
 
 * `al presionar bandera`
 * `esconder`
 * `al recibir _`
 * `mostrar`
+
+![](images/img-05-cangregjo.png)
+
+**Starfish**
+
+Utiliza los bloques:
+
+* `al presionar bandera`
+* `esconder`
+* `al recibir _`
+* `mostrar`
+
+![](images/img-05-estrella.png)
+
+**Octopus**
+
+Utiliza los bloques:
+
+* `al presionar bandera`
+* `esconder`
+* `al recibir _`
+* `mostrar`
+
+![](images/img-05-pulpo.png)
 
 ### Ejercicio 7. Paso de mensajes
 
@@ -137,6 +170,8 @@ Utiliza los bloques:
 * `esconder`
 * `enviar _`
 
+![](images/img-06.png)
+
 ### Ejercicio 8. Puntuación
 
 Vamos a crear una variable llamada **puntos** para guardar el número de veces
@@ -145,10 +180,21 @@ que el objeto **Crab** colisiona con el objeto **Starfish**.
 * Al inicio del juego variable debe estar inicializada a 0.
 * Cada vez que el objeto **Crab** colisiona con el objeto **Starfish** incrementamos en 1 su valor.
 
+**Escenario**
+
 Utiliza los bloques:
 
 * `fijar _ a 0`
+
+![](images/img-07-escenario.png)
+
+**Starfish**
+
+Utiliza los bloques:
+
 * `cambiar _ por 1`
+
+![](images/img-07-estrella.png)
 
 ### Ejercicio 9. Comprobar cuando se alcanza una determinada puntuación
 
@@ -232,29 +278,6 @@ juego ha terminado sin éxito.
 
 También sería conveniente mostrar un texto indicando que el juego ha terminado
 sin éxito. Para crear un texto ha que añadir un nuevo objeto de la categoría *Letras*. A este objeto lo vamos a llamar **GameOver**.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [1]: https://scratch.mit.edu
 [2]: https://www.andaluciacompromisodigital.org
