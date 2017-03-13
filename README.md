@@ -45,13 +45,18 @@ Examina todos los bloques que tenemos disponibles en Scratch 2.0:
 
 Selecciona el fondo **xy-grid**.
 
+![](images/img-00.png)
+
 ### Ejercicio 1. Mover un objeto con las teclas de dirección
 
 Utiliza los bloques:
 
+* `al presionar tecla _`
 * `mover`
-* `cambiar el disfraz`
-* `reproducir sonido`
+* `siguiente disfraz`
+* `tocar sonido`
+
+![](images/img-01.png)
 
 ### Ejercicio 2. Añadir un nuevo objeto de la biblioteca de objetos
 
