@@ -3,6 +3,10 @@
 **Descripción:** Taller de Scratch impartido en el encuentro Biprovincial de voluntarios y voluntarias de [Andalucía Compromiso Digital][2] (ACD) de las provincias de Almería y Granada.  
 **Fecha:** 10 marzo de 2017.
 
+## Licencia
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a>.
+
 # Bienvenidos a Scratch 2.0
 
 ## ¿Qué es Scratch?
@@ -291,10 +295,6 @@ juego ha terminado sin éxito.
 
 También sería conveniente mostrar un texto indicando que el juego ha terminado
 sin éxito. Para crear un texto ha que añadir un nuevo objeto de la categoría *Letras*. A este objeto lo vamos a llamar **GameOver**.
-
-## Licencia
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a>.
 
 
 [1]: https://scratch.mit.edu
