@@ -53,6 +53,7 @@ Utiliza los bloques:
 
 * `al presionar tecla _`
 * `mover _ pasos`
+* `cambiar y por _`
 * `siguiente disfraz`
 * `tocar sonido _`
 
@@ -94,7 +95,13 @@ Utiliza los bloques:
 
 ![](images/img-03.png)
 
-### Ejercicio 5. Comprobar colisiones entre objetos
+### Ejercicio 5. Cambiamos el fondo
+
+Una vez que nos hemos familiarizado con el grid de Scratch y conocemos cómo funciona el sistema de coordenadas ya podemos cambiar el fondo por un fondo más apropiado para nuestro videojuego. En nuestro caso seleccionaremos el fondo **underwater1**.
+
+![](images/img-background.png)
+
+### Ejercicio 6. Comprobar colisiones entre objetos
 
 Comprueba cada vez que el objeto **Crab** colisiona con el objeto **Starfish**.
 
@@ -108,7 +115,7 @@ Utiliza los bloques:
 
 ![](images/img-04.png)
 
-### Ejercicio 6. Eventos y paso de mensajes entre objetos
+### Ejercicio 7. Eventos y paso de mensajes entre objetos
 
 Al inicio del juego todos los objetos estarán ocultos y cuando se pulse sobre el
 icono de la bandera verde los objetos se harán visibles.
@@ -159,7 +166,7 @@ Utiliza los bloques:
 
 ![](images/img-05-pulpo.png)
 
-### Ejercicio 7. Paso de mensajes
+### Ejercicio 8. Paso de mensajes
 
 Cuando el objeto **Crab** colisiona con el objeto **Starfish**, éste tiene que desaparecer y volver a aparecer en otra posición aleatoria de la pantalla.
 
@@ -172,7 +179,7 @@ Utiliza los bloques:
 
 ![](images/img-06.png)
 
-### Ejercicio 8. Puntuación
+### Ejercicio 9. Puntuación
 
 Vamos a crear una variable llamada **puntos** para guardar el número de veces
 que el objeto **Crab** colisiona con el objeto **Starfish**.
@@ -196,7 +203,7 @@ Utiliza los bloques:
 
 ![](images/img-07-estrella.png)
 
-### Ejercicio 9. Comprobar cuando se alcanza una determinada puntuación
+### Ejercicio 10. Comprobar cuando se alcanza una determinada puntuación
 
 El juego finaliza cuando se hayan alcanzado 5 puntos.
 
@@ -217,12 +224,16 @@ Utiliza los bloques:
 * `si _ entonces`
 * `operador =`
 
-**Starfish y Crab**
+![](images/img-08-escenario.png)
+
+**Starfish, Crab y Octopus**
 
 Utilizan los bloques:
 
 * `al recibir _`
 * `esconder`
+
+![](images/img-08-todos.png)
 
 **Win**
 
@@ -232,20 +243,7 @@ Utiliza los bloques:
 * `mostrar`
 * `tocar sonido`
 
-### Ejercicio 10. Añadimos enemigos
-
-Añadimos un nuevo objeto **Octopus** que se mueva aleatoriamente por la
-pantalla. Este objeto tiene que recibir el mensaje **mostrar_pulpo** para aparecer en el juego. Una vez recibido este mensaje se mueve en alguna dirección específica de forma automática y rebota cada vez que se toca con un borde de la pantalla.
-
-Utiliza los bloques:
-
-* `al recibir _`
-* `mostrar`
-* `apuntar en dirección _`
-* `por siempre`
-* `mover _ pasos`
-* `siguiente disfraz`
-* `rebotar si toca un borde`
+![](images/img-08-win.png)
 
 ### Ejercicio 11. Detectamos colisiones de los enemigos con el jugador
 
@@ -261,13 +259,28 @@ Utiliza los bloques:
 * `tocar sonido`
 * `decir _ por _ segundos`
 
-### Ejercicio 12. Limitamos el número de vidas del jugador
+![](images/img-09-pulpo.png)
+
+### Ejercicio 12. Duplicamos el objeto *Octopus* para crear más enemigos
+
+Con la herramienta de **Duplicar** vamos a crear varias copias del objeto **Octopus**.
+Una vez creadas vamos a modificar el valor del bloque `apuntar en dirección _` asignando un ángulo diferente para cada objeto con el objetivo de tener a todos los **Octopus** moviéndose aleatoriamente con sentidos diferentes.
+
+### Ejercicio 13. Limitamos el número de vidas del jugador
 
 Vamos a crear una variable llamada **vidas** para guardar el número de vidas que
 tiene el **Crab**. Cada vez que el **Crab** colisiona con un **Octopus** el
 número de vidas se decrementa en 1.
 
-### Ejercicio 13. Fin del juego cuando las vidas lleguen a 0
+**Escenario**
+
+![](images/img-10-escenario.png)
+
+**Octopus**
+
+![](images/img-10-pulpo.png)
+
+### Ejercicio 14. Fin del juego cuando las vidas lleguen a 0
 
 El juego finaliza cuando el **Crab** se haya quedado con 0 vidas.
 
