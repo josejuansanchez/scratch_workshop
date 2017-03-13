@@ -135,7 +135,7 @@ Utiliza los bloques:
 * `al recibir _`
 * `mostrar`
 
-![](images/img-05-cangregjo.png)
+![](images/img-05-cangrejo.png)
 
 **Starfish**
 
