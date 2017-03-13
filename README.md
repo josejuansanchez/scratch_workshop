@@ -14,15 +14,15 @@ Creado por el **MIT Media Lab Lifelong Kindergarten Group**.
 
 ## ¿Cómo puedo usar Scratch?
 
-* Online
-* Offline
+* [Online][3]
+* [Offline][4]
 
 ## ¿Qué tipo de proyectos puedo crear con Scratch?
 
 Con Scratch podemos crear: 
-* historias interactivas
-* animaciones
-* juegos
+* historias interactivas.
+* animaciones.
+* juegos.
 * ...
 
 Es una herramienta útil para aprender a programar.
@@ -294,3 +294,5 @@ sin éxito. Para crear un texto ha que añadir un nuevo objeto de la categoría 
 
 [1]: https://scratch.mit.edu
 [2]: https://www.andaluciacompromisodigital.org
+[3]: https://scratch.mit.edu
+[4]: https://scratch.mit.edu/scratch2download/
